@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="fr ">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logger ses plongées</title>
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/style.css" />
+
+
+    <script src="scripts/script.js" defer></script>
+</head>
+
+<body>
+    <section class="hero">
+        <main class="container">
+            <div class="flex-row">
+                <div class="one">
+                    <span>Projet#1</span>
+                    <h1> Log de plongées</h1>
+                    <form>
+                        <div class="form-group">
+                            <label for="date">Date</label>
+                            <input type="date" id="date">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="site">Site de plongée</label>
+                            <input type="text" id="site" placeholder="Ex: Épave du Rubis">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="time">Durée (minutes)</label>
+                            <input type="number" id="time" placeholder="45">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="deep">Profondeur (mètres)</label>
+                            <input type="number" id="deep" placeholder="18">
+                        </div>
+
+                        <input type="submit" id="btnAdd" value="Envoyer les données">
+                    </form>
+                </div>
+                <div class="two">
+                    <div class="log">
+                        <h2>Liste des spots de plongées :</h2>
+                        <div id="divesList">
+
+                            <!--Début card-->
+                            <div class="card">
+                                <div class="picture">
+                                    <img src="img/dive.jpg">
+                                </div>
+                                <div>
+                                    <p>Test</p>
+                                    <span>10-02-2026</span>
+                                    <ul>
+                                        <li>m</li>
+                                        <li>mn</li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                            <!--Fin card-->
+                            <!--Début card-->
+                            <div class="card">
+                                <div class="picture">
+                                    <img src="img/dive.jpg">
+                                </div>
+                                <div>
+                                    <p>Test</p>
+                                    <span>10-02-2026</span>
+                                    <ul>
+                                        <li>m</li>
+                                        <li>mn</li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                            <!--Fin card-->
+                            <!--Début card-->
+                            <div class="card">
+                                <div class="picture">
+                                    <img src="img/dive.jpg">
+                                </div>
+                                <div>
+                                    <p>Test</p>
+                                    <span>10-02-2026</span>
+                                    <ul>
+                                        <li>m</li>
+                                        <li>mn</li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                            <!--Fin card-->
+
+                        </div>
+
+                    </div>
+
+        </main>
+
+    </section>
+    <section>
+        <footer>
+            <div class="container">
+                <ul>
+                    <li>Réalisé par Nathalie Depierre</li>
+                    <li>AEC – Développement Web (NWE.2U) - <a href="https://www.cegeptr.qc.ca/" target="_blank">Cégep
+                            Trois-Rivières</a></li>
+                </ul>
+            </div>
+        </footer>
+    </section>
+</body>
+
+</html>
