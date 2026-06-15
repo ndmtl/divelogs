@@ -1,0 +1,59 @@
+{
+  "mers_du_monde": [
+    {
+      "ocean": "Océan Atlantique",
+      "mers": [
+        "Mer des Caraïbes",
+        "Mer Méditerranée",
+        "Mer du Nord",
+        "Mer Baltique",
+        "Mer Noire",
+        "Mer d'Irlande",
+        "Mer des Sargasses"
+      ]
+    },
+    {
+      "ocean": "Océan Pacifique",
+      "mers": [
+        "Mer de Chine méridionale",
+        "Mer de Chine orientale",
+        "Mer du Japon",
+        "Mer d'Okhotsk",
+        "Mer de Béring",
+        "Mer de Corail",
+        "Mer de Tasman"
+      ]
+    },
+    {
+      "ocean": "Océan Indien",
+      "mers": [
+        "Mer Rouge",
+        "Mer d'Arabie",
+        "Mer d'Andaman",
+        "Mer de Timor"
+      ]
+    },
+    {
+      "ocean": "Océan Arctique",
+      "mers": [
+        "Mer de Barents",
+        "Mer de Kara",
+        "Mer de Laptev",
+        "Mer de Sibérie orientale",
+        "Mer des Tchouktches",
+        "Mer de Beaufort",
+        "Mer du Groenland"
+      ]
+    },
+    {
+      "ocean": "Océan Austral",
+      "mers": [
+        "Mer de Ross",
+        "Mer de Weddell",
+        "Mer d'Amundsen",
+        "Mer de Bellingshausen",
+        "Mer de Scotia"
+      ]
+    }
+  ]
+}
